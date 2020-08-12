@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "dumplings-icons" !important;
+    font-family: dumplings-icons;
     src: url('./dumplings-icons.woff') format('woff'),  /* chrome, firefox */
          url('./dumplings-icons.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
          url('./dumplings-icons.svg#dumplings-icons') format('svg');
@@ -7,7 +7,7 @@
     font-style: normal;
 }
 
-.dp-icon {
+[class^="dp-icon"], [class*=" dp-icon"] {
     display: inline-block;
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: dumplings-icons !important;

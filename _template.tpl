@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "<%= fontName %>" !important;
+    font-family: <%= fontName %>;
     src: url('<%= fontPath %><%= fontName %>.woff') format('woff'),  /* chrome, firefox */
          url('<%= fontPath %><%= fontName %>.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
          url('<%= fontPath %><%= fontName %>.svg#<%= fontName %>') format('svg');
@@ -7,7 +7,7 @@
     font-style: normal;
 }
 
-.<%= cssClass %> {
+[class^="<%= cssClass %>"], [class*=" <%= cssClass %>"] {
     display: inline-block;
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: <%= fontName %> !important;
