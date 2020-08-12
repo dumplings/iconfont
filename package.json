@@ -1,0 +1,28 @@
+{
+  "name": "iconfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/dp-icons.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumplings/iconfont.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dumplings/iconfont/issues"
+  },
+  "homepage": "https://github.com/dumplings/iconfont#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-svgmin": "^3.0.0",
+    "node-sass": "^4.14.1",
+    "standard": "^14.3.4"
+  }
+}
